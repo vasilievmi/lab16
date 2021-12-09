@@ -1,0 +1,5 @@
+from urllib.request import urlopen
+url = "https://vimvd.ru/"
+response = urlopen(url)
+headers = response.info()
+print(headers)
